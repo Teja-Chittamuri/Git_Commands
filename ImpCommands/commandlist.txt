@@ -37,6 +37,8 @@
 
 -  git fecth --all --prune  --- Fetch all the latest/modified changes of our code from master.
 
+-  git rebase 'CommitID'  --- Merge all our Commits into Single Commit.
+
 -  git reset 'commit ID' ---- used to unstage our commits.
 
 -  git branch 'Branchname'   ------ used to create a new branch.
