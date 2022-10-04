@@ -1,0 +1,15 @@
+-  Never ever don't directly work with 'Master'.
+
+-  It is highly recommandle that always create a new Private Branch and work with that branch.
+
+- once everything is done push all your changes to  your private branch. 
+
+-  Then Followed Create a Pull Request.So that the reviewers will review our code and suggest if anything need to be added or else they can approve our PR.
+
+-  Once PR is approved then you can merge it to Master Branch.
+
+Note : Merge Conflict 
+
+- This a scenario which takes place when 2 people are working on same code and 2 of them will made the same changes in same lines and raise their PR's. So in this case GIT will get confused and creates a Merge Conflict.
+
+
