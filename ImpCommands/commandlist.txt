@@ -1,0 +1,56 @@
+- Most Frequently used and important Git Commands.
+
+-  mkdir ---- To create the directories or folders.
+
+-  ls ---- It displays all the files that are present in the directory.
+
+-  ls -a  ----- It displays the hidden files in the directory.
+
+-  cd ----- Used to change the directory.
+
+-  git init ----- It is used to intialize the git repository on to our directory
+
+-  touch 'filename' --- It is used to create a new file.
+
+-  vi 'filename' ----- It is used to Insert the data on to our file.
+
+-  cat 'filename'  ----- used to display the data inside of the file.
+
+-  git status ---- Used to check the status of our Git repository(Staging & Unstaging files)
+
+-  git add . ------ Used to stage all of our changes.
+
+-  git restore --staged 'filename' --- Used to UnStage all of our changes.  
+
+-  git commit -m "msg" --------- Used to commit our changes.
+
+-  git rm -f 'filename'  ----- used to remove the files.
+
+-  git rm -d  'filename' ------ used to remove the directory.
+
+-  git remote add origin 'URL'   -------- used to link our repository on to the git repo.
+
+
+-  git remote -v  --- displays URL's of Fetch and pull of our Repository.
+
+-  git push origin 'Branchname'  --- push our changes on to our branch.
+
+-  git fecth --all --prune  --- Fetch all the latest/modified changes of our code from master.
+
+-  git reset 'commit ID' ---- used to unstage our commits.
+
+-  git branch 'Branchname'   ------ used to create a new branch.
+
+-  git checkout 'Branchname'  ------ helps to switch on to required branch
+
+-  git branch -d 'Branchname'  ------ used to delete the branch.
+
+-  git stash -----  Helps to save all our changes at oneplace without staging and commiting.
+
+-  git stash pop  ----  It brings all of our saved changes to unstaging area.
+
+-  git stash clear  ---  Removes all our saved work which is stored in stash area.
+
+-  git pull upstream main ---- To pull all the changes from the forked repos.
+
+
